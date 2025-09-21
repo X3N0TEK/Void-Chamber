@@ -1,57 +1,38 @@
-🌌 Void Chamber
+# 🌌 Void Chamber
 
 Void Chamber is a cosmic, alien-themed game of chance inspired by the human ritual of Russian Roulette. You enter the Chamber not for glory, but to face the eternal hunger of the Void. Each cycle is a wager of existence — survive, and the Chamber acknowledges your defiance. Fail, and you are claimed by the Abyss.
 
-🕹️ Gameplay Overview
+# ⚡ Core Concepts
 
-The player faces the Void Chamber, an ancient alien ritual device.
+- Cycles (Total Shots): The count of all Chamber turns endured.
 
-The Chamber spins, hiding the Oblivion Seed among empty husks.
+- Oblivion Seed (Bullet): The hidden shard of annihilation.
 
-On your turn, you must choose to:
+- Summon (Pull Trigger): When you call upon the Chamber to decide.
 
-Summon → Pull the Chamber’s Call and face fate.
+- Pass: Deny the Chamber once — but beware, the Void remembers.
 
-Pass → Refuse the Call, pushing risk into the next cycle (if rules permit).
+- Currency – Shards: Earned fragments of fate, used to unlock perks.
 
-Survive enough Cycles and resonate through fate itself.
+# 🎯 Features
 
-Fall to the Oblivion Seed, and the Void claims you.
+- Alien-inspired narrative flavor text for every action. Tension-filled risk & reward gameplay.
+- Perks & Unlocks (e.g. Lucky Trigger, Double XP, Cheap Pass, High Roller).
+- Thematic progression currency (Shards) to buy permanent upgrades.
+- Designed to be expanded into graphical or terminal-based versions.
 
-⚡ Core Concepts
+# 🛠️ Installation
 
-Cycles (Total Shots): The count of all Chamber turns endured.
-
-Oblivion Seed (Bullet): The hidden shard of annihilation.
-
-Summon (Pull Trigger): When you call upon the Chamber to decide.
-
-Pass: Deny the Chamber once — but beware, the Void remembers.
-
-Currency – Shards: Earned fragments of fate, used to unlock perks.
-
-🎯 Features
-
-Alien-inspired narrative flavor text for every action.
-
-Tension-filled risk & reward gameplay.
-
-Perks & Unlocks (e.g. Lucky Trigger, Double XP, Cheap Pass, High Roller).
-
-Thematic progression currency (Shards) to buy permanent upgrades.
-
-Designed to be expanded into graphical or terminal-based versions.
-
-🛠️ Installation
-
-Clone the repository
+## Clone the repository
 
 git clone <https://github.com/AdamHale88/VoidChamber.git>
 cd VoidChamber
 
-Run the game
+## Run the game
 
 javac VoidChamber.java
+
+
 java VoidChamber
 
 👁️ License
