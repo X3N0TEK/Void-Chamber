@@ -20,7 +20,7 @@ public class VoidChamber {
                 System.out.println(dash);
                 System.out.println("     ⟁⟟⋏ ⍙⍜⋔⟒    Void Chamber     ⟁⟟⋏ ⍙⍜⋔⟒     ");
                 System.out.println(dash);
-                System.out.println("Cycles Endured: " + totalShotsFired + " | Voidmarks: ⏁" + userScore);
+                System.out.println("Cycles Endured: " + totalShotsFired + " | Shards: ⏁" + userScore);
                 System.out.println(dash);
                 System.out.println("( T ): Summon the Chambers Call");
                 System.out.println("( P ): Each refusal feeds the Voids hunger.");
