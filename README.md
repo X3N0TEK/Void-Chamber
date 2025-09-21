@@ -25,7 +25,7 @@ Void Chamber is a cosmic, alien-themed game of chance inspired by the human ritu
 
 ### Clone the repository
 
-git clone <https://github.com/AdamHale88/VoidChamber.git>
+git clone <https://github.com/X3N0TEK/Void-Chamber.git>
 
 cd VoidChamber
 
