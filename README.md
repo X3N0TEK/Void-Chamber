@@ -23,24 +23,20 @@ Void Chamber is a cosmic, alien-themed game of chance inspired by the human ritu
 
 # 🛠️ Installation
 
-## Clone the repository
+### Clone the repository
 
 git clone <https://github.com/AdamHale88/VoidChamber.git>
+
 cd VoidChamber
 
-## Run the game
+### Run the game
 
 javac VoidChamber.java
 
 
 java VoidChamber
 
-👁️ License
-
-This project is licensed under the MIT License.
-See LICENSE
-
-🛸 A Final Word
+## 🛸 A Final Word
 
 "Few enter the Void Chamber.
 Fewer still emerge.
