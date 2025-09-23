@@ -14,13 +14,6 @@ Void Chamber is a cosmic, alien-themed game of chance inspired by the human ritu
 
 - Currency – Shards: Earned fragments of fate, used to unlock perks.
 
-# 🎯 Features
-
-- Alien-inspired narrative flavor text for every action. Tension-filled risk & reward gameplay.
-- Perks & Unlocks (e.g. Lucky Trigger, Double XP, Cheap Pass, High Roller).
-- Thematic progression currency (Shards) to buy permanent upgrades.
-- Designed to be expanded into graphical or terminal-based versions.
-
 # 🛠️ Installation
 
 # Clone the repository
