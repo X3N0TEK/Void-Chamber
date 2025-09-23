@@ -18,41 +18,41 @@ public class VoidChamber {
                 // "Clear" screen (simulated with new lines)
                 System.out.println("\n".repeat(10));
                 System.out.println(dash);
-                System.out.println("     ⟁⟟⋏ ⍙⍜⋔⟒    Void Chamber     ⟁⟟⋏ ⍙⍜⋔⟒     ");
+                System.out.println(" ⟁⟟⋏ ⍙⍜⋔⟒  Void Chamber  ⟁⟟⋏ ⍙⍜⋔⟒  ");
                 System.out.println(dash);
-                System.out.println("Cycles Endured: " + totalShotsFired + " | Shards: ⏁" + userScore);
+                System.out.println("Cycles Endured: " + totalShotsFired + " | Shards: ⏁  " + userScore);
                 System.out.println(dash);
-                System.out.println("( T ): Summon the Chambers Call");
-                System.out.println("( P ): Each refusal feeds the Voids hunger.");
-                System.out.println("( X ): Your essence scatters into the dark.");
+                System.out.println(" 1 : Summon the Chambers Call");
+                System.out.println(" 2 : Pas..Each refusal feeds the Voids hunger.");
+                System.out.println(" 3 : Your essence scatters into the dark.");
                 System.out.print("Selection:  ");
-                strUserSelection = scanner.nextLine().trim();
+                int UserSelection = scanner.nextInt();
 
-                if (strUserSelection.equalsIgnoreCase("T")) {
+                if (UserSelection == 1) {
                     int userShot = random.nextInt(5) + 1;
                     int computersShot = random.nextInt(5) + 1;
 
                     if (userShot == bullet) {
-                        System.out.println("\nYOU ARE DEAD!\n");
+                        System.out.println("\nThe Void Has Claimed You.....!\n");
                         totalShotsFired = 0;
                     } else {
                         totalShotsFired++;
                         userScore += 100;
 
                         if (computersShot == bullet) {
-                            System.out.println("Computer Lost!");
+                            System.out.println("The Chamber has broken.");
                             System.out.print("(Y) for Yes or (N) for No: ");
                             String cont = scanner.nextLine().trim();
                             if (cont.equalsIgnoreCase("Y")) {
                                 totalShotsFired = 0;
                                 userScore += 100;
                             } else {
-                                strUserSelection = "X";
+                                UserSelection = 3;
                             }
                         }
                     }
 
-                } else if (strUserSelection.equalsIgnoreCase("P")) {
+                } else if (UserSelection == 2) {
                     userScore -= 10;
                     int computersShot = random.nextInt(5) + 1;
 
@@ -64,7 +64,7 @@ public class VoidChamber {
                             totalShotsFired = 0;
                             userScore += 100;
                         } else {
-                            strUserSelection = "X";
+                            UserSelection = 3;
                         }
                     } else {
                         totalShotsFired++;
@@ -72,20 +72,18 @@ public class VoidChamber {
                     }
 
                 } else {
-                    strUserSelection = "X";
+                    UserSelection = 3;
                     System.out.println("\nDeath comes for all.......");
                 }
 
             } finally {
                 if (totalShotsFired == 5) {
-                    System.out.println("Gun is Dry, Congrats you survived!");
+                    System.out.println("The Chamber is regenerating, Congrats you survived!");
                     System.out.print("New game? (Y/N): ");
                     String cont = scanner.nextLine().trim();
                     if (cont.equalsIgnoreCase("Y")) {
                         totalShotsFired = 0;
                         bullet = random.nextInt(5) + 1; // reset bullet
-                    } else {
-                        strUserSelection = "X";
                     }
                 }
             }
