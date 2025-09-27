@@ -1,3 +1,28 @@
+/*##############
+    TO DO LIST :
+##################*/
+
+// implement the code snippet below to reduce the if/else statements into cleaner code
+/* 
+
+switch(expression)
+
+{case value1:
+// code block for value1
+break;
+case value2:
+// code block for value2
+break;
+// ... more cases
+default:
+// code block if no case matches
+}
+
+*/
+
+// Add other key functionality like data save, perk/bonuses etc...
+
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -91,3 +116,4 @@ public class VoidChamber {
         scanner.close();
     }
 }
+
